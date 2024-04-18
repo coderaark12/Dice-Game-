@@ -1,4 +1,4 @@
-changeDice();
+document.querySelector("#btn1").addEventListener("click",changeDice);
 
 function changeDice(){
     var randomNumber1 = Math.floor((Math.random() * 6) + 1);
